@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myListItem"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    android:paddingBottom="3dip"
+    android:paddingLeft="10dip" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/ItemImage"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/arrestee_photo_desc"
+            android:focusable="false"
+            android:textIsSelectable="false" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:focusable="false" >
+
+            <TableRow
+                android:id="@+id/Item1_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:focusable="false" >
+
+                <TextView
+                    android:id="@+id/Item1Title"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:text="@string/name_textview"
+                    android:textColor="#FFFFFF"
+                    android:textIsSelectable="false"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Item1Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:textColor="#FFFFFF"
+                    android:textIsSelectable="false"
+                    android:textSize="13sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/Item2_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:focusable="false" >
+
+                <TextView
+                    android:id="@+id/Item2Title"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:text="@string/arrestee_gender_textview"
+                    android:textColor="#FFFFFF"
+                    android:textIsSelectable="false"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Item2Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textIsSelectable="false"
+                    android:textSize="13sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/Item3_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:focusable="false" >
+
+                <TextView
+                    android:id="@+id/Item3Title"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/date_of_birth_textview"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Item3Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textIsSelectable="false"
+                    android:textSize="13sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/Item_more"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:focusable="false"
+                android:gravity="right" >
+
+                <TextView
+                    android:id="@+id/Item_more_info_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:ellipsize="end"
+                    android:focusable="false"
+                    android:textColor="#C4C400"
+                    android:textIsSelectable="false"
+                    android:textSize="12sp" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</RelativeLayout>

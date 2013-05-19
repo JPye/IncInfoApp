@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/gradient_box" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+  
+       <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/title_bar" >
+
+        <Button
+           android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:alpha="80"
+            android:background="@drawable/back_icon"
+            android:onClick="backBtn" >
+
+
+
+        </Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/arrestee_search_result_title"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+    
+           <RelativeLayout
+           android:id="@+id/result_title_bar"
+           android:layout_width="fill_parent"
+           android:layout_height="20dp"
+           android:layout_alignParentLeft="true"
+           android:layout_below="@+id/title"
+           android:background="@drawable/bottom_bar" >
+
+           <TextView
+               android:id="@+id/result_title"
+               android:layout_width="100dp"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+               android:layout_centerInParent="true"
+               android:textColor="#000000"
+               android:gravity="center"
+               android:textSize="15sp"
+               android:textIsSelectable="true" />
+
+           
+       </RelativeLayout>
+
+            <ListView
+                android:id="@+id/arrestee_list_listView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/result_title_bar"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:cacheColorHint="#00000000" />
+
+</RelativeLayout>

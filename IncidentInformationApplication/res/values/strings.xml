@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Incident Information Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="background_icon">background icon</string>
+    
+    <!-- load_layout -->
+    <string name="app_version">Version 1.0</string>
+    
+    <!-- login_layout -->
+	<string name="login_title">Application Log In</string>
+	<string name="login_username">Police ID:</string>
+	<string name="login_username_hint">Police ID</string>
+	<string name="login_pwd">Password:</string>
+	<string name="login_pwd_hint">Password</string>
+	<string name="login_btn">Login</string>
+	<string name="reset_btn">Reset</string>
+	
+	<!-- menu_layout -->
+	<string name="tab_inc_search">Incident</string>
+	<string name="tab_arrestee_search">Arrestee</string>
+	<string name="tab_charge_search">Charge</string>
+	<string name="tab_report_search">Report</string>
+	<string name="tab_homepage">Home</string>
+	
+	<!-- homepage_layout -->
+	<string name="welcome_title">Welcome</string>
+	<string name="welcome_info">Welcome to Worcester Incident Information System</string>
+	<string name="yourtask_textview">Your Task Manager</string>
+	<string name="latest_incident_title">Latest Incident</string>
+	<string name="incident_date">Date</string>
+	<string name="incident_address">Address</string>
+	
+	<!-- inc_search_layout -->
+	<string name="inc_search_title">Incident Search</string>
+	<string name="info_resource_type_prompt">Choose the information resource type</string>
+	<string name="inc_resolved_status_prompt">Choose the incident status</string>	
+	<string name="inc_type_promt">Choose the Incident Type</string>
+	<string name="district_promt">Choose the District</string>
+	<string name="inc_search_btn">Search</string>
+	<string name="inc_reset_btn">Reset</string>
+	<string name="inc_type">Incident Type :</string>
+	<string name="date_textview">Date (MM-DD-YYYY)</string>
+	<string name="from_textview">From</string>
+	<string name="to_textview">To</string>
+	<string name="district_textview">District Num &amp; Sector</string>
+	<string name="streetname">Street Name</string>
+	<string name="info_resource">Incident Source</string>
+	<string name="street_no">Street No.</string>
+	<string name="apartment_no">Apartment No.</string>
+	<string name="invo_phone">Involved Phone Number</string>
+	<string name="related_officer">Related Officer</string>
+	<string name="related_arrestee">Related Arrestee</string>
+	<string name="streetnum">Street Number</string>
+	<string name="inc_status_textview">Incident Status</string>
+	<string name="inc_num_textview">Incident No. :</string>
+	<string-array name="info_resource_type">
+	<item>** select **</item>
+	<item>911</item>
+    <item>Patrol</item>
+    <item>Complaint</item> 
+	</string-array>
+	
+	<string-array name="inc_resolved_status">
+		<item>** select **</item>
+		<item>Finished</item>
+		<item>In Progress</item>
+	</string-array>
+	
+	<string-array name="disrict">
+	<item>** select **</item>
+	<item>----1~5 Northeast Sector</item>
+	<item>----6~10 Southeast Sector</item>
+	<item>----11~15 Southwest Sector</item>
+	<item>----16~20 Northwest Sector</item>
+	</string-array>
+	
+	<string-array name="inc_type">
+	<item>** select **</item>
+	<item>Assist Citizen</item>
+    <item>MV Accident</item>
+    <item>Fight</item>
+    <item>Stolen Car</item>
+    <item>Disorderly Group</item>
+    <item>Malicious Destruction</item>
+    <item>Loud Party</item>
+    <item>Break and Entering</item>
+    <item>MV Accident with Injury</item>
+    <item>Domestic Disturbance</item>
+    <item>Shooting</item>
+    <item>Stabbing</item>  
+	</string-array>
+	
+	<!-- arrestee_search_layout -->
+	<string name="arrestee_search_title">Arrestee Search</string>
+	<string name="arrestee_firstname_textview">First Name</string>
+	<string name="arrestee_lastname_textview">Last Name</string>
+	<string name="arrestee_gender_textview">Gender :</string>
+	<string name="arrestee_race_textview">Race</string>
+	<string name="gender_promt">Choose the Arrestee Gender</string>
+	<string name="race_promt">Choose the Arrestee Race</string>
+	<string-array name="gender">
+		<item>** select **</item>
+		<item>Male</item>
+		<item>Female</item>
+	</string-array>	
+	<string-array name="race">
+		<item>** select **</item>
+		<item>Caucasian</item>
+		<item>African American</item>
+		<item>Asian</item>
+		<item>Latino</item>
+		
+	</string-array>
+	<string name="arrestee_search_btn">Search</string>
+	<string name="arrestee_reset_btn">Reset</string>
+	
+	<!-- charge_search_layout -->
+	<string name="charge_search_title">Charge Search</string>
+	<string name="chargedescription_textview">Charge Description</string>
+	<string name="charge_search_btn">Search</string>
+	<string name="charge_reset_btn">Reset</string>
+	
+	<!-- report_search_layout -->
+	<string name="report_search_title">Report Search</string>
+	<string name="report_choose_textview">Report Type</string>
+	<string name="choose_report_type_btn">Choose Report</string>
+	<string name="report_select_promt">Choose the report</string>
+	<string-array name="report_type_spinner">
+		<item>** select **</item>
+		<item>Incident quantity of sectors</item>
+		<item>Incident quantity of months</item>
+		<item>Call quantity of time periods</item>
+		</string-array>
+	
+	<!-- about_us_layout -->
+	<string name="about_us_title">About Us</string>
+	<string name="group_info">MIS 573 Group 03\nIIA Project Team</string>
+	<string name="first_member_info">Sean Jeremiah Fleming\nxchen3@wpi.edu</string>
+	<string name="second_member_info">Pan Ye\npye@wpi.edu</string>
+	<string name="third_member_info">Lixia Qian\nlqian@wpi.edu</string>
+	<string name="forth_member_info">Weihan Gao\nwgao@wpi.edu</string>
+	<string name="fifth_member_info">Xing Liu\nxliu2@wpi.edu</string>
+	
+	<!-- assignment_layout -->
+	<string name="task_title">My Tasks</string>
+	
+	<!-- setting_layout -->
+	<string name="setting_title">Application Setting</string>
+	<string name="about_btn">About Us</string>
+	<string name="setting_btn">Setting</string>
+	<string name="setcheck">use default IP and port</string>
+	<string name="ip_textview">IP Address</string>
+	<string name="port_textview">Port Number</string>
+	<string name="ip_dot">.</string>
+
+	<!-- inc_search_result_list_layout  -->
+	<string name="inc_search_result_title">Search Result</string>
+
+	
+	<!-- arrestee_search_result_list_layout  -->
+	<string name="arrestee_search_result_title">Search Result</string>
+	<string name="arrestee_name_textview">Name</string>
+	<string name="arrestee_birthdate_textview">Birthday</string>
+
+	
+	<!-- charge_search_result_list_layout  -->
+	<string name="charge_search_result_title">Search Result</string>
+	<string name="charge_num_textview">Charge No. :</string>
+	<string name="charge_content_textview">Charge Content :</string>
+	<string name="charge_quantity_of_arrestee">Quantity of Arrestee</string>
+	
+	<!-- inc_file_detail_layout -->
+	<string name="inc_file_detail_title">Incident File</string>
+	<string name="date_title_textview">Date :</string>
+	<string name="address_textview">Address :</string>
+	<string name="reason_textview">Incident Source :</string>
+	<string name="caller_name">Caller Name</string>
+	<string name="arrestee_num_textview">Arrestee ID :</string>
+	<string name="caller_textview">Callers</string>
+	<string name="arrestee_textview">Arrestees</string>
+	<string name="name_textview">Name :</string>
+	<string name="arrestee_date_textview">Arrested Date :</string>
+	<string name="invo_officer_textview">Involved Officers</string>
+	<string name="officer_id_title">Officer ID</string>
+	<string name="primary_textview">Primary</string>
+	<string name="narrative_textview">Narratives</string>
+	<string name="narrative_author_textview">Narrative Author</string>
+	<string name="message_textview">Messages</string>
+	<string name="message_author_textview">Message Author</string>
+		
+	
+	<!-- arrestee_file_detail_layout -->
+	<string name="arrestee_file_title">Arrestee File</string>
+	<string name="date_of_birth_textview">Date of Birth :</string>
+	<string name="gender_textview">Gender :</string>
+	<string name="characteristics_textview">Characteristics</string>
+	<string name="race_textview">Race :</string>
+	<string name="haircolor_textview">Hair Color :</string>
+	<string name="height_textview">Height :</string>
+	<string name="weight_textview">Weight :</string>
+	<string name="phonenumber_textview">Phone Number :</string>
+	<string name="license_textview">License to Carry No. :</string>
+	<string name="othercharacteristics_textview">Other Characteristics :</string>
+	<string name="charge_textview">Charges</string>
+	<string name="lawnumber_textview">Law Number</string>
+	<string name="lawdescription_textview">Law Description</string>
+	<string name="incident_textview">Incidents</string>
+	<string name="arrestee_photo_desc">Arrestee Photo</string>
+	<string name="phone_hint">phone</string>
+	
+	<!-- charge_detail_layout -->
+	<string name="charge_arrestee_list_title">Charged Arrestees</string>
+	<string name="charge_arrestee_name_textview">Arrestee Name</string>
+	<string name="charge_related_arrestee">Related Arrestee</string>
+	
+	<!-- narrative_detail_layout -->
+	<string name="narrativedetail_textview">Narrative File</string>
+	<string name="author_textview">Author :</string>
+	<string name="narrativecontent_textview">Narrative Content :</string>
+	
+	<!-- message_detail_layout -->
+	<string name="sender_textview">Sender :</string>
+	<string name="messagecontent_textview">Message Content :</string>
+	<string name="message_detail_title">Message File</string>
+	<string name="map_title">Incident Map</string>
+	
+	<!-- report_search_result_layout -->
+	<string name="report_searchresult_title">Report</string>
+	<string name="report_image_description">Report Review</string>
+	<string name="report_year_textview">Year</string>
+	<string name="report_type_choose_textview">Selecet the Report Type</string>
+	
+	<!-- add_message_layout -->
+	<string name="add_new_message_title">Add Message</string>
+	<string name="msg_submit_btn">Submit</string>
+	<string name="msg_reset_btn">Reset</string>
+	<string name="message_hint">Insert Message Content Here&#8230;</string>
+	
+	<!-- report_sector_layout-->
+	<string name="sector_textview">Sector</string>
+	<string name="district_number_textview">District</string>
+	<string name="quantity_textview">Quantity</string>
+	<string name="northeast_textview">Northeast</string>
+	<string name="district1_textview">1</string>
+	<string name="district2_textview">2</string>
+	<string name="district3_textview">3</string>
+	<string name="district4_textview">4</string>
+	<string name="district5_textview">5</string>
+	<string name="northeast_total_num">Total</string>
+	
+	<string name="northwest_textview">Northwest</string>
+	<string name="district6_textview">6</string>
+	<string name="district7_textview">7</string>
+	<string name="district8_textview">8</string>
+	<string name="district9_textview">9</string>
+	<string name="district10_textview">10</string>
+	<string name="northwest_total_num">Total</string>
+	
+	<string name="southeast_textview">Southeast</string>
+	<string name="district11_textview">11</string>
+	<string name="district12_textview">12</string>
+	<string name="district13_textview">13</string>
+	<string name="district14_textview">14</string>
+	<string name="district15_textview">15</string>
+	<string name="southeast_total_num">Total</string>
+	
+	<string name="southwest_textview">Southwest</string>
+	<string name="district16_textview">16</string>
+	<string name="district17_textview">17</string>
+	<string name="district18_textview">18</string>
+	<string name="district19_textview">19</string>
+	<string name="district20_textview">20</string>
+	<string name="southwest_total_num">Total</string>
+	
+		<!-- report_month_layout-->
+	<string name="month_textview">Month</string>
+	<string name="month1_textview">Jan</string>
+	<string name="month2_textview">Feb</string>
+	<string name="month3_textview">Mar</string>
+	<string name="month4_textview">Apr</string>
+	<string name="month5_textview">May</string>
+	<string name="month6_textview">Jun</string>
+	<string name="month7_textview">Jul</string>
+	<string name="month8_textview">Aug</string>
+	<string name="month9_textview">Sep</string>
+	<string name="month10_textview">Oct</string>
+	<string name="month11_textview">Nov</string>
+	<string name="month12_textview">Dec</string>
+	<string name="month_total_num">Total</string>
+
+	<!-- report_timeperiod_layout-->
+	<string name="timeperiod_textview">Time Period</string>
+	<string name="time1_textview">00:00——02:00</string>
+	<string name="time2_textview">02:00——04:00</string>
+	<string name="time3_textview">04:00——06:00</string>
+	<string name="time4_textview">06:00——08:00</string>
+	<string name="time5_textview">08:00——10:00</string>
+	<string name="time6_textview">10:00——12:00</string>
+	<string name="time7_textview">12:00——14:00</string>
+	<string name="time8_textview">14:00——16:00</string>
+	<string name="time9_textview">16:00——18:00</string>
+	<string name="time10_textview">18:00——20:00</string>
+	<string name="time11_textview">20:00——22:00</string>
+	<string name="time12_textview">22:00——24:00</string>
+	<string name="timeperiod_total_num">Total</string>
+	
+</resources>
